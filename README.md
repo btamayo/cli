@@ -13,8 +13,8 @@ $ brew tap btamayo/cli
 [![Build Status](https://travis-ci.org/btamayo/play.svg?branch=master)](https://travis-ci.org/btamayo/play) [![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)](https://github.com/btamayo/play)
 
 
-Repo: [https://github.com/btamayo/play](https://github.com/btamayo/play)
-Formula: [ansible-play.rb](Formula/anisble-play.rb)
+- **Repo**: [https://github.com/btamayo/play](https://github.com/btamayo/play)
+- **Formula**: [ansible-play.rb](Formula/ansible-play.rb)
 
 
 
