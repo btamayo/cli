@@ -7,8 +7,8 @@ class Ansibuddy < Formula
   homepage "https://github.com/btamayo/ansibuddy"
   url "https://github.com/btamayo/ansibuddy/archive/0.1.0-beta.1.tar.gz"
   sha256 "39616f1df888a8b6d6bdb4730507f966cf5bbfcd9f2cc9eb05d6c02f7e3e728b"
-  head "https://github.com/btamayo/ansibuddy.git", :branch => "development"
-
+  head "https://github.com/btamayo/ansibuddy.git"
+  
   def install
     opoo "WARNING: This package is still unstable and in active development"
     bin.install_symlink "ap.sh"
