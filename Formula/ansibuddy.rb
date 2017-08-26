@@ -6,10 +6,11 @@ class Ansibuddy < Formula
   desc "Ansibuddy: Ansible-playbook helper"
   homepage "https://github.com/btamayo/ansibuddy"
   url "https://github.com/btamayo/ansibuddy/archive/0.1.0-beta.1.tar.gz"
-  sha256 "0da45cd9b2b9ad3fe9814c9fafa19d53c8992f69424362d526070f80a4abcd89"
+  sha256 "39616f1df888a8b6d6bdb4730507f966cf5bbfcd9f2cc9eb05d6c02f7e3e728b"
   head "https://github.com/btamayo/ansibuddy.git", :branch => "development"
 
   def install
+    prefix.install "ap.sh" "usage.bash"
     opoo "WARNING: This package is still unstable and in active development"
     bin.install_symlink "ap.sh"
     mv bin/"ap.sh", bin/"ap"
